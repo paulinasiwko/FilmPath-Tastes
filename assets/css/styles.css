@@ -18,6 +18,10 @@ nav h4 {
     margin-left: 20px;
 }
 
+.hero-text {
+    padding-top: 10px;
+}
+
 .card-title {
     text-align: center;
     margin: -30px 30% 0 30%;
@@ -27,9 +31,9 @@ nav h4 {
     border-radius: 20px;
 }
 
-.hero-text {
+/* .hero-text {
     padding-top: 25px;
-}
+} */
 
 #weather p {
     text-align: left;
@@ -40,8 +44,14 @@ nav h4 {
     border: transparent;
 }
 
-.foodTitle {
+/* .foodTitle {
     margin: 30px 0 20px 0;
+    font-weight: 700;
+    text-align: center;
+} */
+
+.foodTitle {
+    margin-top: 20px;
     font-weight: 700;
     text-align: center;
 }
@@ -50,7 +60,8 @@ nav h4 {
     text-align: center;
 }
 
-.foodImg, .pizzaImage {
+.foodImg, 
+.pizzaImage {
     max-width: 100%;
     max-height: 100%;
     margin-bottom: 20px;
@@ -62,8 +73,14 @@ nav h4 {
     display: block;
 }
 
+/* .food-container {
+    display: flex;
+} */
+
 .food-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #list {
@@ -76,8 +93,12 @@ nav h4 {
     border: transparent;
 }
 
-.carousel {
+/* .carousel {
     height: auto;
+    text-align: center;
+} */
+
+.carousel {
     text-align: center;
 }
 
@@ -94,12 +115,19 @@ nav h4 {
     overflow: hidden;
 }
 
-.footer {
+/* .footer {
     background-color: var(--btnPink);
     color: white;
     text-align: center;
     padding: 8px;
     font-weight: 500;
+} */
+
+.footer {
+    text-align: center;
+    padding: 8px;
+    font-weight: 500;
+    background-color: var(--btnPink);
 }
 
 footer a {
