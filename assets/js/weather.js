@@ -53,7 +53,7 @@ function updateUI(weatherData) {
     const todayContainer = document.getElementById('today');
     if (todayContainer) {
         todayContainer.innerHTML = `
-            <h5 class="card-title">Current weather</h5>            
+            <h5 class="weatherTitle">Current weather</h5>            
             <img src="https://openweathermap.org/img/wn/${currentWeather.weather[0].icon}.png" alt="Weather icon">
             <p>Date: ${formatDate(currentWeather.dt)}</p>
             <p>Temperature: ${currentWeather.main.temp}°C</p>

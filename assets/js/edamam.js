@@ -33,11 +33,11 @@ function displayRecipe(food) {
         <div class="food-container">
             <div>
                 <img src="${image}" alt="${recipeName} photo" class="foodImg">
-                <a href="${recipeLink}">Click here to see full recipe.</a>
             </div>
             <div>
-                <h6>Shopping list: </h6>
+                <h6 class="shoppingList">Shopping list: </h6>
                 <div id="list"></div>
+                <a href="${recipeLink}" class="link">Click here to see full recipe.</a>
             </div>
         </div>
     `; 
@@ -62,18 +62,18 @@ function displayRecipe(food) {
      <div class="food-container">
         <img src="assets/img/pizza.png" alt="Pizza Margherita" class="pizzaImage">
          <div>
-             <h6>Shopping list: </h6>
+             <h6 class="shoppingList">Shopping list: </h6>
              <div id="list">
-             <li>300g strong bread flour</li>
-             <li>1 tsp istant yeast</li>
-             <li>1 tsp salt</li>
-             <li>1 tbsp olive oil</li>
-             <li>100 ml passata</li>
-             <li>fresh basil</li>
-             <li>1 garlic glove</li>
-             <li>125g ball mozzarella</li>
-             <li>shaved parmesan</li>
-             <li>handful of cherry tomatoes</li>    
+                <li>300g strong bread flour</li>
+                <li>1 tsp istant yeast</li>
+                <li>1 tsp salt</li>
+                <li>1 tbsp olive oil</li>
+                <li>100 ml passata</li>
+                <li>fresh basil</li>
+                <li>1 garlic glove</li>
+                <li>125g ball mozzarella</li>
+                <li>shaved parmesan</li>
+                <li>handful of cherry tomatoes</li>    
              </div>
          </div>
      </div> `;

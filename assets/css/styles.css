@@ -19,36 +19,60 @@ nav h4 {
 }
 
 .hero-text {
-    padding-top: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .card-title {
     text-align: center;
     margin: -30px 30% 0 30%;
-    padding: 5px;
+    padding: 5px 10px;
     background-color: var(--purple);
     color: white;
     border-radius: 20px;
 }
 
-/* .hero-text {
-    padding-top: 25px;
-} */
+.card {
+    background-color: var(--pink);
+    border: 1px solid var(--btnPink);
+}
+
+.link {
+    margin-top: 40px;
+    color: var(--btnPink);
+}
+
+.link:hover {
+    color: var(--purple);
+}
+
+.shoppingList {
+    background-color: var(--btnPink);
+    padding: 5px;
+}
+
+
+.weatherTitle {
+    background-color: var(--purple);
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
 
 #weather p {
     text-align: left;
+    margin: 0 30px 20px 30px;
 }
 
 .mainCard {
     background-color: transparent;
     border: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-
-/* .foodTitle {
-    margin: 30px 0 20px 0;
-    font-weight: 700;
-    text-align: center;
-} */
 
 .foodTitle {
     margin-top: 20px;
@@ -73,10 +97,6 @@ nav h4 {
     display: block;
 }
 
-/* .food-container {
-    display: flex;
-} */
-
 .food-container {
     display: flex;
     flex-wrap: wrap;
@@ -88,40 +108,24 @@ nav h4 {
     margin-left: 40px;
 }
 
-.movies-card {
-    background: #eee;
-    border: transparent;
-}
-
-/* .carousel {
-    height: auto;
-    text-align: center;
-} */
-
 .carousel {
     text-align: center;
 }
 
 .carousel-caption {
+    margin: auto 15px;
     padding: 10px 20px;
-    border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid var(--btnPink);
+    background-color: rgba(227, 186, 198, 0.8);
 }
 
 .carousel-img {
+    margin-top: 20px;
     object-fit: cover;
     object-position: center;
     height: 100vh;
     overflow: hidden;
 }
-
-/* .footer {
-    background-color: var(--btnPink);
-    color: white;
-    text-align: center;
-    padding: 8px;
-    font-weight: 500;
-} */
 
 .footer {
     text-align: center;
